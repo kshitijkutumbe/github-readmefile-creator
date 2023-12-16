@@ -18,6 +18,14 @@ class GitProfile:
             layout="wide",
             page_icon="https://raw.githubusercontent.com/github/explore/main/topics/github/github.png"
             )
+        dark = '''
+                    <style>
+                        .stApp {
+                        background-color: black;
+                        }
+                    </style>
+                    '''
+        st.markdown(dark,unsafe_allow_html=True)
         with open('metadata.json') as f:
             self.metadata = json.load(f)
         self.make_st_changes()
