@@ -215,8 +215,7 @@ class GitProfile:
         if icon_type == 'black & white':
             url = 'https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons'
         else:
-            url = 'https://raw.githubusercontent.com/ksi/github-readme-creator/resources/logos'
-
+            url = 'https://raw.githubusercontent.com/kshitijkutumbe/github-readmefile-creator/54e5690ef9f43dc2482805d035b6da1a8c241f52/logos'
         sites = ['LinkedIn','Twitter', 'Instagram','YouTube','Medium','StackOverflow']
         placeholder_url = {
             'LinkedIn':'https://linkedin.com/...',
